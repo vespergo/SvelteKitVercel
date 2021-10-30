@@ -39,26 +39,13 @@
 </script>
 
 <h1>SpaceX Launches</h1>
-<p>
-  This is an example <a
+<p>  
+  <a
     class="link"
     target="_blank"
     rel="noopener"
-    href="https://svelte.dev">SvelteKit</a
+    href="https://api.spacex.land/graphql">Using SpaceX API</a
   >
-  application fetching GraphQL data from the public
-  <a
-    class="link"
-    target="_blank"
-    rel="noopener"
-    href="https://api.spacex.land/graphql">SpaceX API</a
-  >. View source on
-  <a
-    class="link"
-    target="_blank"
-    rel="noopener"
-    href="https://github.com/leerob/sveltekit-graphql">GitHub</a
-  >.
 </p>
 <ul>
   {#each launches as launch}
@@ -76,18 +63,7 @@
   {/each}
 </ul>
 <footer>
-  <p>
-    Created with <a
-      class="link"
-      target="_blank"
-      rel="noopener"
-      href="https://svelte.dev">SvelteKit</a
-    >
-    and deployed with
-    <a class="link" target="_blank" rel="noopener" href="https://vercel.com"
-      >▲ Vercel</a
-    >.
-  </p>
+  
 </footer>
 
 <style>
